@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Template1
+
+  Created by Collier, Jeff on 2/10/13.
+  Copyright (c) 2013 Jeff Collier. All rights reserved.
+*/
+
+"Entity1MasterTableTitle" = "Events";
+"Entity1AddTitle" = "Add Event";
+"Entity1TypePickerTitle" = "Pick Type";
+"Entity1Name" = "Event";
+"Entity1Type" = "Type";
+"Entity1Date" = "Date";
+
+"StringArrayTypePickerTitle" = "Pick One";

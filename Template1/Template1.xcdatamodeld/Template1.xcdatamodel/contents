@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Entity1" representedClassName="Entity1">
+        <attribute name="changedTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date1" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailImage" optional="YES" attributeType="Transformable" valueTransformerName="UIImageToNSDataTransformer" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <relationship name="image1" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Image1" inverseName="entity1" inverseEntity="Image1" syncable="YES"/>
+        <relationship name="location1" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location1" inverseName="entity1" inverseEntity="Location1" syncable="YES"/>
+        <relationship name="type" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1Type" inverseName="entities" inverseEntity="Entity1Type" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Entity1Type" representedClassName="Entity1Type" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="entities" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1" inverseName="type" inverseEntity="Entity1" syncable="YES"/>
+    </entity>
+    <entity name="Event" syncable="YES">
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Image1" representedClassName="Image1" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName="UIImageToNSDataTransformer" syncable="YES"/>
+        <relationship name="entity1" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1" inverseName="image1" inverseEntity="Entity1" syncable="YES"/>
+    </entity>
+    <entity name="Location1" representedClassName="Location1" syncable="YES">
+        <attribute name="addressString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entity1" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1" inverseName="location1" inverseEntity="Entity1" syncable="YES"/>
+    </entity>
+    <entity name="Status" syncable="YES"/>
+    <elements>
+        <element name="Category" positionX="232" positionY="108" width="128" height="60"/>
+        <element name="Entity1" positionX="261" positionY="189" width="128" height="180"/>
+        <element name="Entity1Type" positionX="9" positionY="369" width="128" height="90"/>
+        <element name="Event" positionX="-63" positionY="-135" width="128" height="60"/>
+        <element name="Image1" positionX="18" positionY="228" width="128" height="75"/>
+        <element name="Status" positionX="81" positionY="-9" width="128" height="45"/>
+        <element name="Location1" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>

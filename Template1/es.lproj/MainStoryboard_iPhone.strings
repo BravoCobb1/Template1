@@ -1,0 +1,36 @@
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "12"; */
+"12.title" = "Master";
+
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "21"; */
+"21.title" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Detail"; ObjectID = "26"; */
+"26.title" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Master"; ObjectID = "36"; */
+"36.title" = "Master";
+
+/* Class = "IBUILabel"; text = "Type"; ObjectID = "0BH-QH-zY8"; */
+"0BH-QH-zY8.text" = "Type";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "4Tz-BG-JSc"; */
+"4Tz-BG-JSc.text" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Add Entity0"; ObjectID = "9zi-rc-2if"; */
+"9zi-rc-2if.title" = "Add Entity0";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "MSh-uo-e7X"; */
+"MSh-uo-e7X.placeholder" = "Name";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "bPF-bs-1gS"; */
+"bPF-bs-1gS.text" = "Subtitle";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Entity0 Name"; ObjectID = "mBp-jo-dxQ"; */
+"mBp-jo-dxQ.headerTitle" = "Entity0 Name";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "phq-AM-6qj"; */
+"phq-AM-6qj.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "rfB-TX-7qU"; */
+"rfB-TX-7qU.text" = "Name";
